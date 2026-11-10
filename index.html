@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LiteNVR — Personal Home NVR</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:48px auto;padding:0 20px;line-height:1.6;color:#1a1a1a}
+h1{font-size:28px} h2{font-size:20px;margin-top:32px}
+a{color:#0b57d0}
+code{background:#f1f3f4;padding:2px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>LiteNVR — Personal Home NVR</h1>
+<p>LiteNVR is a personal, non-commercial network video recorder (NVR) that runs
+locally on a computer in my own home. It records video from my own IP cameras
+on my home network, and lets me view live video and recordings from home.</p>
+
+<h2>What it does</h2>
+<ul>
+<li>Records RTSP video streams from my own cameras to local storage.</li>
+<li>Shows live video and playback in a local web interface.</li>
+<li>Optionally backs up recordings I choose to <strong>my own Google Drive</strong>,
+using the Google Drive API with the <code>drive.file</code> scope. LiteNVR can
+only see and manage files it created itself in my Drive; it cannot see my
+other Drive files.</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+<li>It is not a public service and it has no other users.</li>
+<li>It does not collect, share, or sell any personal data.</li>
+<li>It does not send camera video to any third party except my own Google Drive
+account, only when I enable Drive backup.</li>
+<li>Google account credentials (OAuth tokens) are stored only on my local NVR
+device. They are never shared with anyone.</li>
+</ul>
+
+<h2>Privacy</h2>
+<p>See the <a href="privacy.html">Privacy Policy</a> for details on what data
+is used, how to disconnect Google Drive, and how to request deletion of data.</p>
+
+<p><em>Last updated: 10 November 2026.</em></p>
+</body>
+</html>
